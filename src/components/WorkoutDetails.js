@@ -85,5 +85,6 @@ const WorkoutDetails = ({workout}) => {
         </div>
     )
 }
+
  
 export default WorkoutDetails;
