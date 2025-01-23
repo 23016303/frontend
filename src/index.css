@@ -56,7 +56,7 @@ header a {
   font-size: 0.9em;
   color: #555;
 }
-.workout-details span {
+/* .workout-details span {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -65,6 +65,34 @@ header a {
   padding: 6px;
   border-radius: 50%;
   color: #333;
+} */
+ 
+#delete {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+ 
+#update {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+ 
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Ensures space between items */
+  gap: 10px; /* Adds space between items */
 }
  
 /* new workout form */
@@ -101,3 +129,5 @@ div.error {
 input.error {
   border: 1px solid var(--error);
 }
+ 
+ 
